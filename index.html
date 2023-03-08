@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Egyption Party</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div
+      class="loaderContainer w-100 d-flex align-items-center justify-content-center"
+    >
+      <span class="loader"></span>
+    </div>
+    <section class="side-bar d-flex" id="sidebar">
+      <div class="side-bar-list position-relative" id="sideBarList">
+        <i
+          id="sideBarClose"
+          class="fa fa-close fa-1x p-2 position-absolute top-0 end-0"
+        ></i>
+        <ul class="w-100">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#duration">Duration</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="home" id="home">
+      <div id="sideBarToggle" class="text-white">
+        <i class="fa fa-list"></i>
+        <span>Open</span>
+      </div>
+      <div
+        id="homeText"
+        class="text-white text-center d-flex justify-content-center flex-column"
+      >
+        <h1>Egyption Party</h1>
+        <h3>Let's Have Fun</h3>
+      </div>
+    </section>
+    <section id="details" class="container py-4">
+      <div id="accordions" class="row w-75 m-auto">
+        <button class="accordion">Singer One</button>
+        <div class="panel">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maxime
+            temporibus consequuntur ipsam aliquam vel ullam quas repellat odit
+            tenetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <button class="accordion">Singer two</button>
+        <div class="panel">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia,
+            quas enim, corrupti quia nam magnam voluptas itaque dolorem
+            cupiditate earum minima optio, ducimus aut fugiat quo totam aliquid!
+            Aut voluptatibus dolor ipsa nobis quas nemo a rerum suscipit eaque
+            ducimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <button class="accordion">Singer Three</button>
+        <div class="panel">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <button class="accordion">Singer Four</button>
+        <div class="panel">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Sequi assumenda ipsam fuga maxime illo
+            maiores rerum quam? Sed illum voluptate voluptatem officia numquam
+            reprehenderit ducimus, consequatur consequuntur, voluptatum cumque
+            amet rerum laudantium ab ullam eaque dicta nihil autem tempora
+            corporis repudiandae consectetur fugit facilis saepe. Eum non,
+            adipisci similique laborum porro harum cupiditate maxime iusto, sint
+            illum, eligendi pariatur perspiciatis ipsam ea quisquam eius ratione
+            sequi? Esse dolores, error cum dolore soluta perspiciatis!
+            Distinctio quibusdam fugit velit dolorem laudantium id?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="duration">
+      <div class="container py-3 h-100">
+        <div
+          class="row align-items-center justify-content-center h-100 myCountdown"
+          data-date="2023-4-24 23:59:59"
+        >
+          <div class="col-3">
+            <div class="duration-inner">
+              <p><span class="counter-days"></span> D</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="duration-inner">
+              <p><span class="counter-hours"></span>h</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="duration-inner">
+              <p><span class="counter-minutes"></span> m</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="duration-inner">
+              <p><span class="counter-seconds"></span> s</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container py-4">
+        <div class="row py-3">
+          <div class="col-12 contact-heading">
+            <h2>JOIN US</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="col-6">
+            <div class="contact-info">
+              <h4>CONTACT INFO</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                aliquam doloribus officia blanditiis et eos aut quo neque minus
+                a. Velit, corporis eveniet quidem officiis laudantium esse minus
+                repellendus obcaecati!
+              </p>
+              <ul>
+                <li>
+                  <i class="fa fa-location-pin"></i
+                  ><span>New Street 22545, Nexa Road, New York City, USA</span>
+                </li>
+                <li>
+                  <i class="fa fa-envelope"></i
+                  ><span class="text-danger"> hello@uigrid.com</span>
+                </li>
+                <li><i class="fa fa-phone"></i><span>0100-000-000</span></li>
+              </ul>
+            </div>
+            <div class="social-media-links">
+              <ul class="w-100 d-flex justify-content-start">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-google-plus"></i></li>
+                <li><i class="fa-brands fa-github"></i></li>
+                <li><i class="fa-brands fa-behance"></i></li>
+                <li><i class="fa fa-basketball"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 row gy-3">
+            <input
+              class="col-12 form-control"
+              type="text"
+              name="userName"
+              id="userName"
+              placeholder="Enter your name"
+            />
+            <input
+              class="col-12 form-control"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your Email"
+            />
+            <textarea
+              class="col-12 form-control"
+              name="message"
+              id="userMessage"
+              placeholder="Enter your message"
+              rows="3"
+            ></textarea>
+            <p class="messageRemainingchars">
+              <span id="messageRemainingchars">100 </span> &#09;charcters
+              remaining
+            </p>
+            <button type="submit" class="col-3 btn btn-outline-danger">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/loopcounter.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

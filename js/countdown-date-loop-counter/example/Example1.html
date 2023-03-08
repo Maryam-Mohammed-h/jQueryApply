@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>jQuery Loopcounter Countdown Examples</title>
+	<style type="text/css">
+	body{
+		margin: 0;
+		padding: 0;
+		background: url('https://source.unsplash.com/HGsd8uD8Wes/1920x1280');
+	    background-position: center top;
+	    background-attachment: fixed;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	.wrapped{
+		text-align: center;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		display: table;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+	}
+	.wrapped h1{
+		color: #444;
+		font-size: 70px;
+		font-weight: 700;
+		padding: 0px 0 0px 15px;
+		margin: 0 0 30px 0;
+		text-transform: uppercase;
+	}
+	.middle {
+	    display: table-cell;
+	    vertical-align: middle;
+	}
+	.inner {
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.counter-class > div{
+		display: inline-block;
+	}
+	.counter-class .counter-days,
+	.counter-class .counter-hours,
+	.counter-class .counter-minutes,
+	.counter-class .counter-seconds{
+		font-weight: 100;
+		font-size: 50px;
+	}
+	</style>
+</head>
+<body>
+
+<div class="wrapped">
+<div class="middle">
+<div class="inner">
+<h1>Loop<br>counter</h1>
+<div id="carbon-block"></div>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="counter-class" data-date="2022-12-24 23:59:59"><!-- Date Formate Input yyyy-mm-dd hh:mm:ss -->
+	<div><span class="counter-days"></span> Days</div>
+	<div><span class="counter-hours"></span> Hours</div>
+	<div><span class="counter-minutes"></span> Minutes</div>
+	<div><span class="counter-seconds"></span> Seconds</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="./js/loopcounter.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		loopcounter('counter-class');
+	});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+</body>
+</html>
