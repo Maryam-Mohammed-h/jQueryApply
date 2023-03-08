@@ -21,7 +21,11 @@ $(function () {
     $("#sidebar").animate({ left: -sideBarWidth }, 1000);
     $("#homeText ,  #sideBarToggle").animate({ marginLeft: "0px" }, 1000);
   });
-
+  $("#sideBarList a[href^='#']").click(function (event) {
+    let hrefLink = event.target.getAttribute("href");
+    let sectionOffset = $(hrefLink).offset().top;
+    $("body , html").animate({ scrollTop: sectionOffset }, 1000);
+  });
   //accordion
   let accordions = $(".accordion");
   for (let i = 0; i < accordions.length; i++) {
